@@ -76,16 +76,23 @@ h3 { font-size: clamp(1.8rem, 2.5vw, 2.45rem); line-height: 1.02; }
 .programs-section { background: var(--ivory); }
 .program-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(2rem, 5vw, 4.5rem); row-gap: clamp(4rem, 7vw, 6.5rem); }
 .program-card { min-width: 0; }
-.program-photo { aspect-ratio: 16 / 10; overflow: hidden; background: var(--maroon-900); border-radius: .35rem; }
+.program-photo { position: relative; aspect-ratio: 16 / 10; overflow: visible; background: var(--maroon-900); border-radius: .65rem; }
 .program-photo img { width: 100%; height: 100%; object-fit: cover; }
+.program-photo > img, .carousel-viewport { overflow: hidden; border-radius: inherit; }
 .program-card-body { max-width: 34rem; padding-top: 1.5rem; }
 .program-card h3 { margin-bottom: .8rem; color: var(--maroon-900); }
 .program-card p { margin-bottom: 0; color: var(--ink-soft); font-size: .94rem; line-height: 1.75; }
-.photo-knk { object-position: center 62%; }
-.photo-sweet-sunday { object-position: center 46%; }
-.photo-dine { object-position: center 50%; }
-.photo-hifz { object-position: center 58%; }
-.photo-insights { object-position: center 48%; }
+.carousel-viewport, .carousel-track, .carousel-slide { width: 100%; height: 100%; }
+.carousel-viewport { overflow: hidden; }
+.carousel-track { display: flex; transition: transform 320ms ease; }
+.carousel-slide { min-width: 100%; margin: 0; }
+.carousel-status { min-width: 3.5rem; margin: 0; color: var(--maroon-800); font-size: .7rem; font-weight: 600; line-height: 1; text-align: center; }
+.carousel-controls { position: absolute; top: calc(100% + .55rem); left: 50%; display: flex; align-items: center; gap: .4rem; transform: translateX(-50%); }
+.carousel-button { width: 2.75rem; height: 2.75rem; display: grid; place-items: center; padding: 0; color: var(--maroon-950); background: var(--paper); border: 1px solid var(--rule); border-radius: .4rem; cursor: pointer; font: 600 1.15rem/1 var(--sans); }
+.carousel-button:hover { color: var(--white); background: var(--maroon-800); }
+.program-photo.has-carousel { margin-bottom: 3.25rem; touch-action: pan-y; }
+.program-photo.has-carousel + .program-card-body { padding-top: .8rem; }
+.program-photo.has-carousel:focus-visible { outline-color: var(--gold); }
 
 .events-section { background: var(--paper); }
 .events-heading { margin-bottom: 3.5rem; padding-bottom: 2.25rem; border-bottom: 1px solid var(--rule); }
@@ -185,4 +192,5 @@ h3 { font-size: clamp(1.8rem, 2.5vw, 2.45rem); line-height: 1.02; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  .carousel-track { transition: none; }
 }

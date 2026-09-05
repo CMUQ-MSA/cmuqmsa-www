@@ -1,6 +1,104 @@
 const QATAR = "Asia/Qatar";
 const MSA_CLUB = "MSA";
 
+function isGalleryPhoto(photo) {
+  return photo
+    && typeof photo.src === "string"
+    && /^photos\/[a-z0-9/-]+\.(avif|jpe?g|png|webp)$/i.test(photo.src)
+    && typeof photo.alt === "string"
+    && photo.alt.trim();
+}
+
+function buildPhotoCarousel(root, gallery) {
+  const photos = Array.isArray(gallery?.photos) ? gallery.photos.filter(isGalleryPhoto) : [];
+  if (!photos.length) return;
+
+  const viewport = document.createElement("div");
+  viewport.className = "carousel-viewport";
+
+  const track = document.createElement("div");
+  track.className = "carousel-track";
+
+  const slides = photos.map((photo, index) => {
+    const slide = document.createElement("figure");
+    slide.className = "carousel-slide";
+    slide.setAttribute("aria-hidden", index === 0 ? "false" : "true");
+
+    const image = document.createElement("img");
+    image.src = photo.src;
+    image.alt = photo.alt.trim();
+    image.loading = "lazy";
+    image.decoding = "async";
+    image.draggable = false;
+    if (photo.position) image.style.objectPosition = photo.position;
+
+    slide.append(image);
+    track.append(slide);
+    return slide;
+  });
+
+  viewport.append(track);
+  root.replaceChildren(viewport);
+
+  if (slides.length === 1) return;
+
+  const label = gallery.label || "Program";
+  root.classList.add("has-carousel");
+  root.tabIndex = 0;
+  root.setAttribute("role", "region");
+  root.setAttribute("aria-roledescription", "carousel");
+  root.setAttribute("aria-label", `${label} photos`);
+
+  const controls = document.createElement("div");
+  controls.className = "carousel-controls";
+  const previous = appendTextElement(controls, "button", "carousel-button", "←");
+  previous.type = "button";
+  previous.setAttribute("aria-label", `Previous ${label} photo`);
+  const status = appendTextElement(controls, "p", "carousel-status", "");
+  status.setAttribute("aria-live", "polite");
+  const next = appendTextElement(controls, "button", "carousel-button", "→");
+  next.type = "button";
+  next.setAttribute("aria-label", `Next ${label} photo`);
+  root.append(controls);
+
+  let current = 0;
+  let pointerStart = null;
+
+  function showPhoto(nextIndex) {
+    current = (nextIndex + slides.length) % slides.length;
+    track.style.transform = `translateX(-${current * 100}%)`;
+    slides.forEach((slide, index) => slide.setAttribute("aria-hidden", index === current ? "false" : "true"));
+    status.textContent = `${current + 1} of ${slides.length}`;
+  }
+
+  previous.addEventListener("click", () => showPhoto(current - 1));
+  next.addEventListener("click", () => showPhoto(current + 1));
+  root.addEventListener("keydown", (event) => {
+    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+    event.preventDefault();
+    showPhoto(current + (event.key === "ArrowRight" ? 1 : -1));
+  });
+  root.addEventListener("pointerdown", (event) => { pointerStart = event.clientX; });
+  root.addEventListener("pointerup", (event) => {
+    if (pointerStart === null) return;
+    const distance = event.clientX - pointerStart;
+    pointerStart = null;
+    if (Math.abs(distance) < 45) return;
+    showPhoto(current + (distance < 0 ? 1 : -1));
+  });
+  root.addEventListener("pointercancel", () => { pointerStart = null; });
+
+  showPhoto(0);
+}
+
+function setupPhotoGalleries() {
+  const galleries = window.MSA_PHOTO_GALLERIES || {};
+  document.querySelectorAll("[data-gallery]").forEach((root) => {
+    const gallery = galleries[root.dataset.gallery];
+    if (gallery) buildPhotoCarousel(root, gallery);
+  });
+}
+
 const monthFmt = new Intl.DateTimeFormat("en-GB", { month: "short", timeZone: QATAR });
 const monthLongFmt = new Intl.DateTimeFormat("en-GB", { month: "long", timeZone: QATAR });
 const weekdayFmt = new Intl.DateTimeFormat("en-GB", { weekday: "long", timeZone: QATAR });
@@ -255,6 +353,7 @@ function renderHijriDate() {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
+  setupPhotoGalleries();
   renderHijriDate();
 
   try {
