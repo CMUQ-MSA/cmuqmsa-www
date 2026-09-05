@@ -1,0 +1,32 @@
+{
+  "name": "CMU-Q MSA",
+  "arabic": "اتحاد الطلبة المسلمين",
+  "place": "Carnegie Mellon University in Qatar · Education City, Doha",
+  "email": "msa@andrew.cmu.edu",
+  "calendar_ics": "https://scottyconnect.qatar.cmu.edu/ical/cmu/ical_cmu.ics",
+  "socials": [
+    {
+      "label": "Instagram",
+      "href": "https://instagram.com/cmuqmsa"
+    },
+    {
+      "label": "Email",
+      "href": "mailto:msa@andrew.cmu.edu"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/@MSACMU-Qatar"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/CMUQ-MSA"
+    }
+  ],
+  "links": [
+    {
+      "label": "ScottyConnect",
+      "detail": "Club page, roster, and RSVP",
+      "href": "https://scottyconnect.qatar.cmu.edu/feeds?type=club&type_id=35465&tab=about"
+    }
+  ]
+}

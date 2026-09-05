@@ -1,0 +1,66 @@
+{
+  "source": "https://scottyconnect.qatar.cmu.edu/ical/cmu/ical_cmu.ics",
+  "fetched_at": "2026-09-05T06:47:16Z",
+  "events": [
+    {
+      "uid": "cf0c17263f97a1c7d6040d1b1ac5407a842026_4:25:49_AM@campusgroups.com",
+      "title": "Club Fair",
+      "start": "2026-09-06T10:00:00Z",
+      "end": "2026-09-06T11:30:00Z",
+      "location": "West Walkway, East Walkway, Qatar",
+      "description": "Join us for the annual Club Fair to get to know more about our vibrant student club community! \n---\nEvent Details: https://scottyconnect.qatar.cmu.edu/rsvp?id=375028",
+      "url": "https://scottyconnect.qatar.cmu.edu/rsvp?id=375028",
+      "organizer": "Student Affairs Department",
+      "organizer_url": "https://scottyconnect.qatar.cmu.edu/studentaffairs/",
+      "club": "STUDENTAFFAIRS",
+      "type": "Leadership",
+      "created": "20260804T120000",
+      "last_modified": "20260825T040120"
+    },
+    {
+      "uid": "a6e94e817a213afb3d45056a85b9fc258252026_10:06:43_AM@campusgroups.com",
+      "title": "MSA Kickoff Event",
+      "start": "2026-09-08T10:00:00Z",
+      "end": "2026-09-08T11:30:00Z",
+      "location": "Lecture Hall 1199, Qatar",
+      "description": "Introductory MSA event to welcome students and introduce the community to the MSA Club, its mission, activities, and upcoming events.\n---\nEvent Details: https://scottyconnect.qatar.cmu.edu/rsvp?id=375185",
+      "url": "https://scottyconnect.qatar.cmu.edu/rsvp?id=375185",
+      "organizer": "Muslim Students Association (MSA)",
+      "organizer_url": "https://scottyconnect.qatar.cmu.edu/MSA/",
+      "club": "MSA",
+      "type": "Social",
+      "created": "20260825T120000",
+      "last_modified": "20260831T143656"
+    },
+    {
+      "uid": "990629bfb1006bc011e1e7f6f15ec0d18252026_2:39:41_PM@campusgroups.com",
+      "title": "Business First-Year Social",
+      "start": "2026-09-22T10:00:00Z",
+      "end": "2026-09-22T11:00:00Z",
+      "location": "Ilona Weyers Student Lounge, Qatar",
+      "description": "A social event for first-year Business students to connect with their classmates and professors in a relaxed and welcoming environment. The event will provide an opportunity for students to get to know their professors outside the classroom, build connections with their peers, and start the academic year as a stronger Business community.\n---\nEvent Details: https://scottyconnect.qatar.cmu.edu/rsvp?id=375187",
+      "url": "https://scottyconnect.qatar.cmu.edu/rsvp?id=375187",
+      "organizer": "Carnegie Mellon Business Association (CMBA)",
+      "organizer_url": "https://scottyconnect.qatar.cmu.edu/CMBA/",
+      "club": "CMBA",
+      "type": "Networking",
+      "created": "20260825T120000",
+      "last_modified": "20260831T144618"
+    },
+    {
+      "uid": "0008c7ea25f0dce270769a809fbec95f8192026_5:29:52_AM@campusgroups.com",
+      "title": "Community Excellence Open House and Giveaway Event",
+      "start": "2026-10-05T10:00:00Z",
+      "end": "2026-10-05T11:00:00Z",
+      "location": "West Walkway, Qatar",
+      "description": "Community Excellence Open House and Giveaway Event\nMonday, October 5 | 1:00 PM - 2:00 PM\n\nWest Walkway\nJoin us for the Community Excellence Open House and Giveaway Event and take a few minutes to connect, celebrate, and learn more about the work of the Office of Community Excellence. \nThe event will feature:\nKarak Konnections Celebration: Celebrate our most highly attended semester in Karak Konnections history with a cup of Karak and snacks.\nMeet the CE Committees: Learn more about the work accomplished this fall, as well as the resources and services available to students, staff, and faculty.\nFree Gift Bags: The first 100 guests will receive a complimentary gift bag to celebrate the end of the semester.\nWe hope to see you there!\nWishing you all the best,\nDean Kira & the Members and Volunteers of the Office of Community Excellence\n\n---\nEvent Details: https://scottyconnect.qatar.cmu.edu/rsvp?id=375135",
+      "url": "https://scottyconnect.qatar.cmu.edu/rsvp?id=375135",
+      "organizer": "Community Excellence",
+      "organizer_url": "https://scottyconnect.qatar.cmu.edu/CEOffice/",
+      "club": "CEOFFICE",
+      "type": "Educational/Awareness",
+      "created": "20260819T120000",
+      "last_modified": "20260826T084011"
+    }
+  ]
+}
