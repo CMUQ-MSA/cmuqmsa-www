@@ -131,7 +131,7 @@ function renderFeaturedEvent(event) {
     appendTextElement(empty, "p", "live-label", "Calendar update");
     appendTextElement(empty, "h3", "", "Nothing scheduled just yet.");
     appendTextElement(empty, "p", "", "New events will appear here as soon as they are published on ScottyConnect.");
-    const link = appendTextElement(empty, "a", "button button-gold", "Check ScottyConnect ↗");
+    const link = appendTextElement(empty, "a", "button button-gold", "Check ScottyConnect");
     link.href = "https://scottyconnect.qatar.cmu.edu/feeds?type=club&type_id=35465&tab=about";
     root.append(empty);
     return;
@@ -140,7 +140,7 @@ function renderFeaturedEvent(event) {
   const start = asDate(event.start);
   const top = document.createElement("div");
   top.className = "next-event-top";
-  appendTextElement(top, "p", "live-label", "Next MSA event");
+  appendTextElement(top, "p", "live-label", "Next event");
 
   const dateBlock = document.createElement("time");
   dateBlock.className = "event-date-block";
@@ -164,7 +164,7 @@ function renderFeaturedEvent(event) {
 
   const href = safeUrl(event.url);
   if (href) {
-    const link = appendTextElement(body, "a", "button button-gold event-button", "View event & RSVP ↗");
+    const link = appendTextElement(body, "a", "button button-gold event-button", "View event and RSVP");
     link.href = href;
   }
 
@@ -193,12 +193,12 @@ function renderEventList(events) {
 
     const details = document.createElement("div");
     appendTextElement(details, "h3", "", event.title);
-    appendTextElement(details, "p", "", `${eventTime(event)} · ${event.location || "CMU-Q"}`);
+    appendTextElement(details, "p", "", `${eventTime(event)}\n${event.location || "CMU-Q"}`);
     item.append(date, details);
 
     const href = safeUrl(event.url);
     if (href) {
-      const link = appendTextElement(item, "a", "", "↗");
+      const link = appendTextElement(item, "a", "", "View");
       link.href = href;
       link.setAttribute("aria-label", `View ${event.title} on ScottyConnect`);
     }
@@ -251,7 +251,7 @@ function renderHijriDate() {
   }).format(now);
 
   document.getElementById("hijri-arabic").textContent = arabic;
-  document.getElementById("hijri-english").textContent = `${english} · Hijri`;
+  document.getElementById("hijri-english").textContent = `${english}, Hijri calendar`;
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
