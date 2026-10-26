@@ -4,6 +4,7 @@ USER root
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY index.html app.js styles.css /usr/share/nginx/html/
+COPY brief/ /usr/share/nginx/html/brief/
 COPY brand/ /usr/share/nginx/html/brand/
 COPY data/ /usr/share/nginx/html/data/
 COPY photos/ /usr/share/nginx/html/photos/
