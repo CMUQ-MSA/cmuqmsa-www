@@ -1,0 +1,339 @@
+{
+  "id": "2026-10-23",
+  "issue_number": 1,
+  "published_at": "2026-10-23",
+  "reviewed_at": null,
+  "status": "editorial-review",
+  "headline": "Human needs behind the headlines",
+  "introduction": "This pilot issue follows four humanitarian emergencies where conflict, displacement, hunger, and weakened public services continue to place civilians at risk. The summaries are intentionally concise: use the linked sources for the full context, and check every donation destination before giving.",
+  "editors": [
+    "the CMU-Q MSA editorial team"
+  ],
+  "sections": {
+    "ummah": {
+      "title": "The Ummah",
+      "description": "Humanitarian crises affecting Muslim communities, presented with care for the people behind the figures.",
+      "items": [
+        {
+          "id": "gaza",
+          "title": "Gaza: fragile relief under deep pressure",
+          "region": "Occupied Palestinian Territory",
+          "status": "Food, shelter, health, and displacement",
+          "latest_update": {
+            "published_at": "2026-10-19",
+            "snippet": "Funding shortages are forcing the World Food Programme to reduce monthly food support in Gaza and the West Bank."
+          },
+          "summary": "Humanitarian agencies report that food assistance, safe water, health services, and adequate shelter remain under severe pressure in Gaza. Approaching winter weather increases the risks facing displaced families living in flood-prone sites and damaged buildings, while funding and access constraints continue to limit the response.",
+          "why_it_matters": "Short-term improvements can reverse quickly when aid coverage falls. Students should read current operational updates rather than relying on undated casualty graphics or social-media summaries.",
+          "social_evidence": [
+            {
+              "platform": "instagram",
+              "publisher": "Al Jazeera English",
+              "author": "Al Jazeera English newsroom",
+              "handle": "@aljazeeraenglish",
+              "author_role": "Official newsroom",
+              "url": "https://www.instagram.com/p/DS1iZORjWZH/",
+              "posted_at": "2025-12-29",
+              "accessed_at": "2026-10-23",
+              "summary": "Al Jazeera English's year-end visual reporting gathers human-centred context on displacement and humanitarian conditions in Gaza.",
+              "evidence_type": "official-newsroom",
+              "corroborated_by": [
+                "https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026",
+                "https://www.wfp.org/emergencies/palestine-emergency"
+              ]
+            },
+            {
+              "platform": "x",
+              "publisher": "UNRWA",
+              "author": "UNRWA communications team",
+              "handle": "@UNRWA",
+              "author_role": "UN humanitarian agency",
+              "url": "https://x.com/UNRWA/status/1987895306948600281",
+              "posted_at": "2025-11-10",
+              "accessed_at": "2026-10-23",
+              "summary": "UNRWA describes the long recovery facing Gaza and the need for humanitarian access to sustain health, education, and essential services.",
+              "evidence_type": "humanitarian-update",
+              "corroborated_by": [
+                "https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026",
+                "https://www.wfp.org/emergencies/palestine-emergency"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "publisher": "UN OCHA — Occupied Palestinian Territory",
+              "title": "Humanitarian Situation Report",
+              "url": "https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026",
+              "published_at": "2026-10-05",
+              "accessed_at": "2026-10-23"
+            },
+            {
+              "publisher": "World Food Programme",
+              "title": "State of Palestine emergency overview",
+              "url": "https://www.wfp.org/emergencies/palestine-emergency",
+              "published_at": null,
+              "accessed_at": "2026-10-23"
+            },
+            {
+              "publisher": "Associated Press",
+              "title": "Short of funds, UN food agency cuts aid to Palestinians in Gaza and the West Bank",
+              "url": "https://apnews.com/article/d7ebbcf1fd30cc608c9b9ed5126deb95",
+              "published_at": "2026-10-19",
+              "accessed_at": "2026-10-23"
+            }
+          ],
+          "video": {
+            "platform": "youtube",
+            "video_id": "c6a4hs7IbI8",
+            "orientation": "portrait",
+            "publisher": "Al Jazeera English",
+            "title": "Gaza aid chaos condemned by humanitarian leaders",
+            "url": "https://www.youtube.com/watch?v=c6a4hs7IbI8",
+            "published_at": null,
+            "accessed_at": "2026-10-26"
+          },
+          "donation_organizations": [
+            {
+              "name": "Palestine Red Crescent Society",
+              "url": "https://www.palestinercs.org/en/Donation",
+              "purpose": "Support the Palestinian Red Crescent's emergency medical and humanitarian work.",
+              "button_label": "Donate through PRCS",
+              "campaign_scope": "Official Palestine Red Crescent donation page",
+              "verified_at": "2026-10-23",
+              "review_note": "MSA approval pending"
+            },
+            {
+              "name": "IFRC — Gaza Humanitarian Crisis",
+              "url": "https://donate.redcrossredcrescent.org/ifrc/gaza-humanitarian-crisis-zakat-2026/~my-donation",
+              "purpose": "A crisis-specific Red Cross and Red Crescent appeal supporting humanitarian assistance in Gaza.",
+              "button_label": "Donate through IFRC",
+              "campaign_scope": "Gaza-specific appeal",
+              "verified_at": "2026-10-23",
+              "review_note": "MSA approval pending"
+            },
+            {
+              "name": "Qatar Red Crescent Society",
+              "url": "https://www.qrcs.org.qa/en/Pages/default.aspx",
+              "purpose": "Choose among QRCS projects providing food, health, water, and other assistance in Gaza.",
+              "button_label": "View QRCS projects",
+              "campaign_scope": "General project selector — choose a Gaza project",
+              "verified_at": "2026-10-23",
+              "review_note": "MSA approval pending"
+            }
+          ]
+        },
+        {
+          "id": "sudan",
+          "title": "Sudan: displacement across a widening region",
+          "region": "Sudan and neighbouring countries",
+          "status": "Conflict, hunger, health, and displacement",
+          "latest_update": {
+            "published_at": "2026-10-12",
+            "snippet": "Conflict, drought, and funding shortages are worsening food insecurity across parts of Darfur and Kordofan."
+          },
+          "summary": "The conflict that began in 2023 continues to drive large-scale displacement inside Sudan and across its borders. Humanitarian agencies describe extensive damage, disrupted essential services, acute protection risks, and extraordinary pressure on communities and countries hosting people forced to flee.",
+          "why_it_matters": "Sudan remains one of the world’s most severe displacement and hunger emergencies, yet sustained public attention and humanitarian funding remain limited relative to the scale of need.",
+          "sources": [
+            {
+              "publisher": "UNHCR",
+              "title": "Sudan Situation Appeal 2026",
+              "url": "https://www.unhcr.org/sites/default/files/2026-02/UNHCR%20Sudan%20Situation%20Appeal%202026.pdf",
+              "published_at": null,
+              "accessed_at": "2026-10-23"
+            },
+            {
+              "publisher": "World Food Programme",
+              "title": "Hunger Hotspots: June to November 2026 outlook",
+              "url": "https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity",
+              "published_at": "2026-06-17",
+              "accessed_at": "2026-10-23"
+            },
+            {
+              "publisher": "Associated Press",
+              "title": "Sudan’s famine risk worsened by conflict, drought and funding shortages",
+              "url": "https://apnews.com/article/123204872e733d39b0b67713b418b0c2",
+              "published_at": "2026-10-12",
+              "accessed_at": "2026-10-23"
+            }
+          ],
+          "video": {
+            "platform": "youtube",
+            "video_id": "atno981aleQ",
+            "orientation": "landscape",
+            "publisher": "Al Jazeera English",
+            "title": "Sudan faces the world's worst humanitarian crisis as aid shrinks",
+            "url": "https://www.youtube.com/watch?v=atno981aleQ",
+            "published_at": "2025-12-23",
+            "accessed_at": "2026-10-26"
+          },
+          "donation_organizations": [
+            {
+              "name": "UN Crisis Relief — Sudan",
+              "url": "https://crisisrelief.un.org/en/donate-sudan-crisis",
+              "purpose": "OCHA-managed pooled funding for humanitarian organizations responding in Sudan.",
+              "button_label": "Donate through the UN",
+              "campaign_scope": "Sudan-specific pooled fund",
+              "verified_at": "2026-10-23",
+              "review_note": "MSA approval pending"
+            },
+            {
+              "name": "IFRC — Sudan Complex Emergency",
+              "url": "https://donate.redcrossredcrescent.org/ifrc/sudan-complex-emergency/",
+              "purpose": "Support the Sudanese Red Crescent Society's first aid, relief, and assistance for displaced families.",
+              "button_label": "Donate through IFRC",
+              "campaign_scope": "Sudan-specific appeal",
+              "verified_at": "2026-10-23",
+              "review_note": "MSA approval pending"
+            },
+            {
+              "name": "Qatar Red Crescent Society",
+              "url": "https://www.qrcs.org.qa/en/Pages/default.aspx",
+              "purpose": "Choose among QRCS food, health, and relief projects serving affected families in Sudan.",
+              "button_label": "View QRCS projects",
+              "campaign_scope": "General project selector — choose a Sudan project",
+              "verified_at": "2026-10-23",
+              "review_note": "MSA approval pending"
+            }
+          ]
+        },
+        {
+          "id": "afghanistan",
+          "title": "Afghanistan: overlapping pressures on families",
+          "region": "Afghanistan and the region",
+          "status": "Hunger, displacement, drought, and protection",
+          "latest_update": {
+            "published_at": "2026-10-15",
+            "snippet": "Humanitarian organizations warn that aid cuts are leaving millions with less access to food and nutrition support."
+          },
+          "summary": "Afghanistan entered 2026 facing intertwined humanitarian, economic, climate, and protection pressures. Displaced families and returnees require shelter, food, health care, and protection while humanitarian organizations work with shrinking resources and difficult operating conditions.",
+          "why_it_matters": "A long-running emergency can disappear from daily headlines even while humanitarian needs remain acute. Reliable updates should include regional displacement and protection conditions, not only single events.",
+          "sources": [
+            {
+              "publisher": "UNHCR",
+              "title": "Afghanistan emergency",
+              "url": "https://www.unhcr.org/emergencies/afghanistan-emergency",
+              "published_at": null,
+              "accessed_at": "2026-10-23"
+            },
+            {
+              "publisher": "UNHCR",
+              "title": "Afghanistan Situation Regional Update — April 2026",
+              "url": "https://data.unhcr.org/en/documents/details/122538",
+              "published_at": null,
+              "accessed_at": "2026-10-23"
+            },
+            {
+              "publisher": "Associated Press",
+              "title": "Malnutrition stalks Afghanistan as aid cuts leave millions helpless",
+              "url": "https://apnews.com/article/49645d8ab1209844854d8aa7eb0b5acb",
+              "published_at": "2026-10-15",
+              "accessed_at": "2026-10-23"
+            }
+          ],
+          "video": {
+            "platform": "youtube",
+            "video_id": "Vj8IxAH6OYw",
+            "orientation": "landscape",
+            "publisher": "Al Jazeera English",
+            "title": "UNHCR chief visits Afghanistan as millions of returnees strain fragile economy",
+            "url": "https://www.youtube.com/watch?v=Vj8IxAH6OYw",
+            "published_at": "2026-07-06",
+            "accessed_at": "2026-10-26"
+          },
+          "donation_organizations": [
+            {
+              "name": "UN Crisis Relief — Afghanistan",
+              "url": "https://crisisrelief.un.org/en/donate-afghanistan-crisis",
+              "purpose": "Humanitarian funding for food, shelter, health, and protection assistance in Afghanistan.",
+              "button_label": "Donate through the UN",
+              "campaign_scope": "Afghanistan-specific humanitarian fund",
+              "verified_at": "2026-10-23",
+              "review_note": "MSA approval pending"
+            },
+            {
+              "name": "IFRC — Afghanistan Returnees",
+              "url": "https://donate.redcrossredcrescent.org/ifrc/afghanistan-population-movement-returnees/~my-donation",
+              "purpose": "Help the Afghan Red Crescent assist returnees and the communities receiving them.",
+              "button_label": "Donate through IFRC",
+              "campaign_scope": "Afghanistan returnees appeal",
+              "verified_at": "2026-10-23",
+              "review_note": "MSA approval pending"
+            },
+            {
+              "name": "Qatar Red Crescent Society",
+              "url": "https://www.qrcs.org.qa/en/Pages/default.aspx",
+              "purpose": "Choose among QRCS humanitarian projects supporting families in Afghanistan.",
+              "button_label": "View QRCS projects",
+              "campaign_scope": "General project selector — choose an Afghanistan project",
+              "verified_at": "2026-10-23",
+              "review_note": "MSA approval pending"
+            }
+          ]
+        }
+      ]
+    },
+    "world": {
+      "title": "Around the World",
+      "description": "Other major humanitarian emergencies that deserve informed attention and principled solidarity.",
+      "items": [
+        {
+          "id": "haiti",
+          "title": "Haiti: violence is dismantling daily life",
+          "region": "Haiti",
+          "status": "Violence, displacement, hunger, and public services",
+          "latest_update": {
+            "published_at": "2026-10-19",
+            "snippet": "Renewed insecurity displaced thousands more people as humanitarian needs continued to outpace available resources."
+          },
+          "summary": "Armed violence and political instability continue to displace families and disrupt health care, education, trade, and humanitarian access. UN reporting in October described nearly 1.5 million internally displaced people, while humanitarian needs continue to outpace available funding.",
+          "why_it_matters": "The crisis is not only a security story. It affects whether families can reach food, schools, clean water, health services, and safe shelter—and children make up a large share of those displaced.",
+          "sources": [
+            {
+              "publisher": "United Nations DPPA",
+              "title": "Special Representative’s remarks to the Security Council",
+              "url": "https://dppa.un.org/en/speeches-and-statements/remarks-by-special-representative-for-haiti-to-the-security-council-as",
+              "published_at": "2026-10-19",
+              "accessed_at": "2026-10-23"
+            },
+            {
+              "publisher": "UNICEF",
+              "title": "Haiti humanitarian appeal",
+              "url": "https://www.unicef.org/appeals/haiti",
+              "published_at": null,
+              "accessed_at": "2026-10-23"
+            },
+            {
+              "publisher": "Associated Press",
+              "title": "Haiti struggles with rising kidnappings as a general election looms",
+              "url": "https://apnews.com/article/b7a85ec5a53e40c74f985a6afafab939",
+              "published_at": "2026-10-01",
+              "accessed_at": "2026-10-23"
+            }
+          ],
+          "video": {
+            "platform": "youtube",
+            "video_id": "Oq3naAmpjE0",
+            "orientation": "landscape",
+            "publisher": "UNICEF Haiti",
+            "title": "The crisis affecting children and families in Haiti",
+            "url": "https://www.youtube.com/watch?v=Oq3naAmpjE0",
+            "published_at": null,
+            "accessed_at": "2026-10-26"
+          },
+          "donation_organizations": [
+            {
+              "name": "UN Crisis Relief — Haiti",
+              "url": "https://crisisrelief.un.org/en/donate-haiti-crisis",
+              "purpose": "OCHA-managed humanitarian funding for frontline organizations responding in Haiti.",
+              "button_label": "Donate through the UN",
+              "campaign_scope": "Haiti-specific humanitarian fund",
+              "verified_at": "2026-10-23",
+              "review_note": "MSA approval pending"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "corrections": []
+}
